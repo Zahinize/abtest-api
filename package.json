@@ -1,0 +1,7 @@
+{
+  "name": "alchemyx-ab-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A blazing-fast A/B testing API for AlchemyX project",
+  "type": "module"
+}
