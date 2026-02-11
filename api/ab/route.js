@@ -1,4 +1,6 @@
-export const runtime = "edge";
+export const config = {
+  runtime: "edge",
+};
 
 import { POLICIES, EXPERIMENT } from "../../constants/constants.mjs";
 import { getVariant } from "../../utils/utils.js";
