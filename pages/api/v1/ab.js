@@ -1,6 +1,6 @@
 /***** api/ab.js *****/
-import { POLICIES, EXPERIMENT } from "../../constants/constants.mjs";
-import { getVariant } from "../../utils/utils.js";
+import { POLICIES, EXPERIMENT } from "../../../constants/constants.mjs";
+import { getVariant } from "../../../utils/utils.js";
 
 export default function handler(req, res) {
   const { siteId = "default", sessionId = "anon" } = req.query;
