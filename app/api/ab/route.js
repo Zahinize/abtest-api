@@ -3,7 +3,7 @@ export const runtime = "edge";
 import { POLICIES, EXPERIMENT } from "../../constants/constants.mjs";
 import { getVariant } from "../../utils/utils.js";
 
-export async function GET(req) {
+export function GET(req) {
   const { searchParams } = new URL(req.url);
   const siteId = searchParams.get("siteId") || "default";
   const sessionId = searchParams.get("sessionId") || "anon";
