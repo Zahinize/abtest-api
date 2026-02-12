@@ -19,7 +19,7 @@ export function GET(req) {
       status: 200,
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control": "no-store",
+        "Cache-Control": "public, max-age=60, s-maxage=60",
         "Access-Control-Allow-Origin": "*",
       },
     },
